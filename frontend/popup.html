@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+          
+        <div>
+        <label for="labelName">Label to reply to:</label>
+        <input type="text" id="labelName" name="labelName" size="10">
+        </div>
+        <div>
+        <label for="template">Reply template:</label>
+        <input type="text" id="template" name="template" size="10">
+        </div>
+        <br>
+        <div>
+        <label for="title">Reply title:</label>
+        <input type="text" id="title" name="title" size="10">    
+        </div>
+        <div>
+        <label for="replybody">Reply body:</label>  
+        </div>
+        <textarea id="replyBody" name="replyBody" rows="4" cols="50">Please enter the text for the reply here</textarea>
+        <br><br>
+        <div>
+        <form>
+          <label for="tempType">Choose a template type:</label>
+          <select name="tempType" id="tempType">
+            <option value="template">JSON template</option>
+            <option value="manual">Manual inputs</option>
+          </select>  
+        </form>  
+        </div>
+        <!-- <div>
+        <button>Reply</button>
+        <script src="popup.js" charset="utf-8"></script>    
+        </div> -->
+
+        <br><br>
+        ---------------------------------------------------------------------------------
+        <br><br><br>
+
+        <div>
+        <label for="newLabelName">Name of new label</label>
+        <input type="text" id="newLabelName" name="newLabelName" size="10">
+        </div>
+        <div>
+        <label for="keyword">Keyword:</label>
+        <input type="text" id="keyword" name="keyword" size="10">
+        </div>
+        <br>
+        <div>
+        <label for="start">Start date:</label>
+        
+        <input type="date" id="start" name="trip-start"
+               value="2021-12-01"
+               min="2018-01-01" max="2021-12-31"> 
+        </div>
+        <div>
+        <label for="end">Start date:</label>
+        
+        <input type="date" id="end" name="trip-start"
+               value="2021-12-01"
+               min="2018-01-01" max="2021-12-31"> 
+        </div>
+       
+        <br><br>
+        <div>
+        <button>Execute</button>
+        <script src="popup.js" charset="utf-8"></script>    
+        </div>
+    </body>
+</html>
