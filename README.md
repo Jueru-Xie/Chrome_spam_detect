@@ -3,8 +3,11 @@
 This spam management tool is built to manage and reply to spams and other emails in bulk. It has 2 main functions: bulk reply and auto labeling.
 
 ## Installation
+
+#### Frontend install
 1. Go to extension setting in Chrome
 2. Click on Load Unpacked, and choose the frontend folder
+#### backend install
 3. Go to backend and Install python Flask 
 
    ```bash
